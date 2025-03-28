@@ -1,0 +1,33 @@
+{
+  "name": "programavimas",
+  "version": "1.0.0",
+  "description": "Labas rytas, Lietuva!",
+  "main": "index.js",
+  "scripts": {
+    "for": "node --watch ./js/8-for.js",
+    "typeof": "node --watch ./js/7-typeof.js",
+    "array": "node --watch ./js/6-array.js",
+    "boolean": "node --watch ./js/4-boolean.js",
+    "if": "node --watch ./js/5-if.js",
+    "function": "node --watch ./js/3-function.js",
+    "string": "node --watch ./js/2-string.js",
+    "number": "node --watch ./js/1-number.js",
+      "adult": "node --watch ./praktika/adult.js",
+      "digit-count": "node --watch ./praktika/digit-count.js",
+      "interval-count": "node --watch ./praktika/interval-count.js",
+      "interval-sum": "node --watch ./praktika/interval-sum.js",
+      "marks-average": "node --watch ./praktika/marks-average.js",
+      "mini-javascript": "node --watch ./praktika/mini-javascript.js",
+      "multi-table": "node --watch ./praktika/multi-table.js",
+      "multiply": "node --watch ./praktika/multiply.js",
+      "praktika": "node --watch ./praktika/praktika.js",
+      "string-reverse": "node --watch ./praktika/string-reverse.js",
+      "text-size": "node --watch ./praktika/text-size.js",
+         "uzdaviniai": "node --watch ./uzdaviniai/uzdaviniai.js",
+        "js": "node ./index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aurelija (https://github.com/principess01)",
+  "license": "ISC"
+}
