@@ -76,7 +76,7 @@ console.clear();
 Susikurkite bent 6 sąrašo (array) tipo kintamuosius, kurių pirmas narys yra mokinio vardas, o toliau yra 5 skaičiaus tipo mokinio pažymiai
 Sukurkite funkciją, kuri padaro šiuos veiksmus:
 Į console išveda mokinio vardą
-Į console išveda mokinio pažymių vidurkį ir praneša ar suvestine1 išlaikė ar neišlaikė kurso
+Į console išveda mokinio pažymių vidurkį ir praneša ar mokinys išlaikė ar neišlaikė kurso
 Jei mokinys neišlaiko kurso, parašykite ar mokinys, gavęs vieną gerą įvertį, galėtų pasitaisyti savo vidurkį.
 
 2 užduotis - filmų rekomendacija:
@@ -89,17 +89,48 @@ Padarykite funkciją, kuri iš pasirinktų 3 filmų, pagal jūsų norimą žanr�
 //1 užduotis
 
 const mokinys1 = ['Amelija', 2, 6, 7, 5, 9];
+const mokinys2 = ['Kornelija', 3, 3, 2, 5, 2];
+const mokinys3 = ['Vilius', 7, 10, 7, 4, 9];
+const mokinys4 = ['Simona', 3, 9, 9, 10, 9];
+const mokinys5 = ['Violeta', 4, 8, 7, 10, 9];
 
-function mokinioVidurkis(suvestine) {
-    console.log('Mokinio vardas: ' + mokinys1[0])
+ 
+function mokinioVidurkis(mokinys) {
+    console.log('Mokinio vardas: ' + mokinys[0])
+    let sum = mokinys[1] - mokinys[2] + mokinys[3] - mokinys[4] + mokinys[5];
+    let vidurkis = (mokinys[1] + mokinys[2] + mokinys[3] + mokinys[4] + mokinys[5]) / 5;
+   let vidurkisNaujas = ((vidurkis * 5) + 10) / 6;
+    console.log(vidurkisNaujas);
+    if (vidurkis >= 3.5) {
+        console.log (mokinys[0] + ' išlaikė kursą. Vidurkis yra: ' + vidurkis);
+    }           
+    else {
+        console.log(mokinys[0] + ' neišlaikė kursą. Dabartinis vidurkis yra: ' + vidurkis);
+    } 
+    if (vidurkisNaujas >= 3.5) {
+    console.log(moknys[0]) + ' išlaikys kursą, jei gaus 10.';
+}   
 }
+       
+
 
 mokinioVidurkis(mokinys1);
+mokinioVidurkis(mokinys2);
+mokinioVidurkis(mokinys3);y
+mokinioVidurkis(mokinys4);
+mokinioVidurkis(mokinys5);
+
+
+
+
+
+
+
 
 /*
-function mokinioDuomenys(suvestine1) {
-    console.log(suvestine1[0]);
-    let vidurkis = (suvestine1[1] + suvestine1[2] + suvestine1[3] + suvestine1[4] + suvestine1[5]) / 5;
+function mokinioDuomenys(mokinys) {
+    console.log(mokinys[0]);
+    let vidurkis = (mokinys[1] + mokinys[2] + mokinys[3] + mokinys[4] + mokinys[5]) / 5;
     console.log(vidurkis);
     if (vidurkis >= 5) {
         console.log('Mokinė islaikė kursą');
@@ -109,3 +140,11 @@ function mokinioDuomenys(suvestine1) {
 }
 */
 
+
+
+/*
+for(let i=1; i<=6; i++) {
+    const mokinys = 'mokinys' + i;
+    console.log(mokinys);
+}
+*/

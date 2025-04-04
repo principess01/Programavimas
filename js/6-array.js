@@ -1,5 +1,7 @@
 /*
-ARRAY - is a collection of elements of the same type(sarasas, Arejus, matrica, masyvas, list'as
+ARRAY - is a collection of elements of the same type(sarašas, Arėjus, matrica, masyvas, list'as
+- k++ / ++k prideda vienu vienetu skaičiaus reikšmę
+- k-- / --k atima vienu vienetu skaičiaus reikšmę
 */
 
 const empty = [];

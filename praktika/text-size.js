@@ -1,9 +1,9 @@
 /*
-Reikalinga funkicija, kuri gauna teksta, kuri grazina, rezultata, priklausomai nuo teksto ilgio:
-- jei tuscias tekstas: "tuscias tekstas"
-- jei tekstas maziau 10 simboliu: "Trumpas tekstas is N simboliu."
-- jei tekstas maziau 20 simboliu: "Tekstas is N simboliu."
-- jei ilgesnis: "Ilgausias tekstas is N simboliu."
+Reikalinga funkicija, kuri gauna teksta, kuri grazina rezultata, priklausomai nuo teksto ilgio:
+- jei tuscias: "Tuscias tekstas."
+- jei maziau 10 simboliu: "Trumpas tekstas is N simboliu."
+- jei maziau 20 simboliu: "Tekstas is N simboliu."
+- jei ilgesnis: "Ilgas tekstas is N simboliu."
 */
 
 function textSize(text) {

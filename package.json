@@ -4,6 +4,7 @@
   "description": "Labas rytas, Lietuva!",
   "main": "index.js",
   "scripts": {
+    "object": "node --watch ./js/9-object.js",
     "for": "node --watch ./js/8-for.js",
     "typeof": "node --watch ./js/7-typeof.js",
     "array": "node --watch ./js/6-array.js",
@@ -23,6 +24,7 @@
       "praktika": "node --watch ./praktika/praktika.js",
       "string-reverse": "node --watch ./praktika/string-reverse.js",
       "text-size": "node --watch ./praktika/text-size.js",
+      "biggest-number": "node --watch ./praktika/biggest-number.js",
          "uzdaviniai": "node --watch ./uzdaviniai/uzdaviniai.js",
         "js": "node ./index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
