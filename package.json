@@ -4,6 +4,11 @@
   "description": "Labas rytas, Lietuva!",
   "main": "index.js",
   "scripts": {
+    "for-in": "node --watch ./js/18-for-in.js",
+    "while": "node --watch ./js/17-while.js",
+    "for-of": "node --watch ./js/16-for-of.js",
+    "ternary": "node --watch ./js/15-ternary.js",
+    "arrow": "node --watch ./js/14-arrow.js",
     "method-array": "node --watch ./js/13-method-array.js",
     "method-number": "node --watch ./js/12-method-number.js",
     "method-string": "node --watch ./js/11-method-string.js",
@@ -32,6 +37,7 @@
       "money-format": "node --watch ./praktika/money-format.js",
       "names-split-join": "node --watch ./praktika/names-split-join.js",
       "valid-name": "node --watch ./praktika/valid-name.js",
+      "fancy-math": "node --watch ./praktika/fancy-math.js",
          "uzdaviniai": "node --watch ./uzdaviniai/uzdaviniai.js",
         "js": "node ./index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
