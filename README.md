@@ -21,14 +21,14 @@ daiktai:
 
 Labas rytas, Lietuva
 
-**Labas** rytas, Lietuva
-Labas _rytas_, Lietuva
+**Labas** rytas, Lietuva (bold)
+Labas _rytas_, Lietuva (italic)
 
 ## Nuorodos 
 Github: [mano profilis](https://github.com/principess01).
 
 ## Nuotraukos
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 ![alt text]({EA9B9056-0604-46B2-BA1F-9ED3DCBEBB2A}.png)
